@@ -5,7 +5,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(name = "ArtifactServlet", value = "/home/support/Ad-eff/src/main/java/my/proj")
+@WebServlet(name = "ArtifactServlet", value = "/home/support/Ad-eff")
 public class ArtifactServlet extends HttpServlet {
 
   @Override
