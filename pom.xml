@@ -70,7 +70,6 @@
         <artifactId>jetty-maven-plugin</artifactId>
         <version>${jetty.maven.plugin}</version>
         </plugin>
-		<pluginManagement>
 				<plugin>
 					<groupId>org.codehaus.mojo</groupId>
 					<artifactId>exec-maven-plugin</artifactId>
@@ -80,7 +79,6 @@
 					</configuration>
 				</plugin>
 			</plugins>
-		</pluginManagement>
 	</build>
 
 	<dependencies>
