@@ -4,7 +4,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(name = "dataflowscheduler", value = "/home/support/Ad-eff")
+@WebServlet(name = "ArtifactServlet", value = "/home/support/Ad-eff")
 public class ArtifactServlet extends HttpServlet {
 
   @Override
