@@ -68,7 +68,7 @@
 	 <plugin>                          <!-- Used for local debugging -->
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-maven-plugin</artifactId>
-        <version>${jetty.maven.plugin}</version>
+        <version>9.4.10-SNAPSHOT</version>
         </plugin>
 				<plugin>
 					<groupId>org.codehaus.mojo</groupId>
