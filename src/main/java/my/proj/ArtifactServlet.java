@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 public class ArtifactServlet extends HttpServlet {
 
   @Override
-  public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+  public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
     StarterPipeline.run();
   }
 }
