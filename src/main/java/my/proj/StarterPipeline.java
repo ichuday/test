@@ -54,6 +54,7 @@ import com.pojo.CompositeOutput;
 public class StarterPipeline {
 
 	public static void main(String[] args) {
+				
 		SimpleDateFormat date1 = new SimpleDateFormat("MM/dd/yyyy");
 	
 		DataflowPipelineOptions options = PipelineOptionsFactory.as(DataflowPipelineOptions.class);
@@ -1095,4 +1096,11 @@ public class StarterPipeline {
 	  */
 		p.run().waitUntilFinish(); 
 		}
+	
+	public static void run() {
+		StarterPipeline sp = new StarterPipeline();
+		sp.main(null);
+	}
+
+
 }
